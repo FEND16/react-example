@@ -14,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && git subtree push --prefix dist origin gh-pages"
+    "deploy": "yarn build && git subtree push --prefix build origin gh-pages"
     
   },
   "homepage": "https://fend16.github.io/react-example"
